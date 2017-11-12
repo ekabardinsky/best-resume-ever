@@ -75,7 +75,7 @@
       </div>
     </a>
 
-    <div class="item last">
+    <div class="item">
       <div class="section-headline">
         {{ lang.headings.skills }}
       </div>
@@ -90,6 +90,16 @@
         </div>
       </div>
     </div>
+	<div class="item last" style="height: 850px">
+	  <div class="section-headline">
+        {{ lang.headings.knowledge }}
+      </div>
+      <div>
+        <div class="description-personal">
+          <span>{{person.knowledge}}&nbsp;</span>
+        </div>
+      </div>
+	</div>
   </div>
 
   <div class="rightCol">
@@ -98,6 +108,13 @@
       <div>{{person.position}}</div>
     </div>
 
+	<div class="section-headline">{{ lang.headings.about }}</div>
+    <div class="block">
+      <div class="block-helper"></div>
+        <p class="info">
+          {{person.about}}
+        </p>
+    </div>
     <div class="section-headline">{{ lang.headings.experience }}</div>
     <div class="block" v-for="experience in person.experience" :key="experience.company">
       <div class="block-helper"></div>
@@ -107,6 +124,12 @@
           {{experience.description}}
         </p>
     </div>
+   <div class="section-headline">{{ lang.headings.projects }}</div>
+	<div class="block" v-for="project in person.projects" :key="project.name">
+		<div class="block-helper"></div>
+		<div class="headline">{{project.name}}</div>
+		<p class="info">{{project.description}}</p>
+	</div>
     <div class="section-headline">{{ lang.headings.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
       <div class="block-helper"></div>
@@ -115,8 +138,18 @@
         {{education.timeperiod}}, {{education.description}}
       </p>
     </div>
+    <div class="section-headline">{{ lang.headings.sites }}</div>
+	<div class="block" v-for="site in person.sites" :key="site.name">
+		<div class="block-helper"></div>
+		<a class="headline" :href="site.link">{{site.name}}</a>
+		<p class="info">{{site.description}}</p>
+	</div>
+    <div class="section-headline">{{ lang.headings.certificates }}</div>
+	<div class="block" v-for="certificate in person.certificates" :key="certificate.name">
+		<div class="block-helper"></div>
+		<a class="headline" :href="certificate.link">{{certificate.name}}</a>
+	</div>
   </div>
-
   <div style="clear:both;"></div>
 </div>
 </template>
@@ -441,6 +474,8 @@ h4 {
 #myselfpic {
   background-image:url('../../resume/id.jpg');
   color:black;
+  width: 100%;
+  height: 370px;
 }
 #githubIcon {
   width:25px;

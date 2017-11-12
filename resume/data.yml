@@ -3,8 +3,7 @@ name:
   first: Evgeny
   middle:
   last: Kabardinsky
-about: bal bla
-
+about: "I am certified mule soft developer and having nearly 4 years working experience particularly in developing API and integration use two integration frameworks: Apache Camel, MuleSoft ESB."
 position: Software Engineer
 
 birth:
@@ -55,6 +54,28 @@ contact:
   city: Tyumen
   website: ekabardinsky.tk
   github: ekabardinsky
+sites:
+- name: Upwork
+  description: My Upwork account
+  link: "https://www.upwork.com/o/profiles/users/_~01a0656da4102aaba5/"
+- name: DwNinja
+  description: My own open source tool for evulating MuleSoft internal script language - DataWeave
+  link: "http://dwninja.tk"
+projects:
+- name: Bank API
+  description: Developing and support an integration solution for a Bank.
+- name: ePOS API
+  description: Developing ePOS API and ETL processes for food industry company.
+certificates:
+- name: Oracle Certified Associate - Java
+  link: "https://www.youracclaim.com/badges/b2603016-cb4f-4fd1-b63f-2d58783b39a3"
+- name: MCD - Connector Specialist
+  link: "https://training.mulesoft.com/award/certification/60d8cc49-4442-3426-9a9c-0756e18d4bf4/view"
+- name: MCD - Integration and API Associate
+  link: "https://training.mulesoft.com/award/certification/ea5d7c1b-36b3-3a61-9f85-5ea4bbed4b82/view"
+- name: MSD - Design Associate
+  link: "https://training.mulesoft.com/award/certification/bfb36051-ab48-3185-ac62-ee38ccb6cb47/view"
+
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko, el
 lang: en
 `
