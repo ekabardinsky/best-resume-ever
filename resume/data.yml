@@ -23,10 +23,10 @@ experience:
 
 education:
 - degree: Master of Science
-  timeperiod: Septenver 2016
+  timeperiod: September 2016
   description: Information Systems and Technologies, Tyumen State University, Tyumen, Russia.
 - degree: Bachelor of Science
-  timeperiod: Septenver 2012 - June 2016
+  timeperiod: September 2012 - June 2016
   description: Information Systems and Technologies, Tyumen State University, Tyumen, Russia.
 
 # skill level goes 0 to 100
@@ -58,7 +58,7 @@ sites:
 - name: Upwork
   description: My Upwork account
   link: "https://www.upwork.com/o/profiles/users/_~01a0656da4102aaba5/"
-- name: DwNinja
+- name: DWNinja
   description: My own open source tool for evulating MuleSoft internal script language - DataWeave
   link: "http://dwninja.tk"
 projects:
