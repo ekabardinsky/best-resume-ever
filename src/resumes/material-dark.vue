@@ -141,7 +141,7 @@
     <div class="section-headline">{{ lang.headings.sites }}</div>
 	<div class="block" v-for="site in person.sites" :key="site.name">
 		<div class="block-helper"></div>
-		<a class="headline" :href="site.link">{{site.name}}</a>
+		<a class="headline" :href="site.link" target="_blank">{{site.name}}</a>
 		<p class="info">{{site.description}}</p>
 	</div>
     <div class="section-headline">{{ lang.headings.certificates }}</div>
